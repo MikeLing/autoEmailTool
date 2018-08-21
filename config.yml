@@ -1,0 +1,12 @@
+admin:
+    svn: 'svn://223.84.134.45:10032/group3/data/group3directory/编码/serverCode/maintaincar/maintaincar-admin'
+    repoPath: '/home/mikeling/maintaincar-admin'
+    warName: 'maintaincar.war'
+    stageServer: '172.16.0.250'
+    warPath: '/root/imgservices/car/webapps'
+rest:
+    svn: 'svn://223.84.134.45:10032/group3/data/group3directory/编码/serverCode/maintaincar/maintaincar-rest'
+    repoPath: '/home/mikeling/maintaincar-rest'
+    warName: 'carrest.war'
+    stageServer: '172.16.0.250'
+    warPath: '/root/imgservices/car-rest/webapps'

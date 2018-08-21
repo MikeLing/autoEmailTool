@@ -1,0 +1,17 @@
+<!doctype html>
+{% extends 'base.html' %}
+
+{% block content %}
+<form action = "{{ url_for('dispatch')}}" method = "post" onsubmit="alert('success dispatch');">
+        <br/>
+        <input class="form-control" name = "name" type="text" placeholder="Project Title">
+        <br/>
+        <input class="form-control" name = "keyWords" type="text" placeholder="Key words must been included into the article.( separated by comma )">
+        <br/>
+        <textarea class="form-control" name = "description" id="projectdescription" rows="5" placeholder="Project Description"></textarea>
+        <br/>
+        <input class="form-control" name = "uploadPath" type="email" placeholder="upload path">
+        <br/>
+        <button type="submit" class="btn btn-primary btn-lg" value = "Submit">Send to the writers</button>
+</form>
+{% endblock %}
